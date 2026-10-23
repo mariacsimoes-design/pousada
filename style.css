@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: rgb(20, 115, 198);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+   margin-left: 150px;
+}
+.textos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 980px;
+    margin-top: -50px;
+    gap: 25px;
+    font-size: 10px;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.foto{
+   width: 100%;
+   height: 100vh;
+   margin-top: 30px;
+}
+.vantagens{
+    color: rgb(35, 132, 174);
+    font-family: Verdana;
+    text-align: center;
+    font-size: 25px;
+}
+.txts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 185px;
+    color: rgb(30, 159, 214);
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.widgets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+}
+.tamanho{
+    width: 150px;
+    height: 150px;
+}
+.alinhar{
+    text-align: center;
+}
+.camas{
+    width: 350px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: -20px;
+}
+.quarto13{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    background-color: #ecd8bc;
+    padding: 90px;
+    
+}
+.suites{
+    text-align: left;
+    color: rgb(35, 132, 174);
+    font-family: Verdana;
+    margin-top: -20px;
+}
+.lorens{
+    margin-left: -140px;
+    margin-top: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.quarto2{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    background-color: #eae1d6;
+    padding: 90px;
+}
+.reserve{
+    color: rgb(35, 132, 174);
+    font-size: 25px;
+    font-family: Verdana;
+    text-align: center;
+    margin-top: 50px;
+}
+.endereco{
+    text-align: center;
+    color: rgb(150, 161, 180);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+a {
+   color: rgb(35, 132, 174);
+   text-decoration: none; 
+}
+a:hover {
+    border: 2px solid rgb(16, 14, 69);
+    border-radius: 10px;
+    background-color: rgb(223, 225, 255);
+}
